@@ -1,5 +1,5 @@
 
-
+import {Link} from 'react-router-dom';
 const Welcome  = () => {
 
     return (
@@ -16,8 +16,8 @@ const Welcome  = () => {
 
 
         <form className=" flex-col gap-3 text-right"style={{display:"flex", fontSize:"20px" }} >
-          <button className=" text-black text-center font-semibold py-2 rounded-md mt-4" style={{backgroundColor:"#75D6C6"}}>انشاء حساب </button>
-          <button className=" text-black text-center font-semibold py-2 rounded-md mt-4" style={{backgroundColor:"#75D6C6"}}>لديك حساب بالفعل </button>
+          <Link to="/register" className=" text-black text-center font-semibold py-2 rounded-md mt-4" style={{backgroundColor:"#75D6C6"}}>انشاء حساب </Link>
+          <Link to="/login" className=" text-black text-center font-semibold py-2 rounded-md mt-4" style={{backgroundColor:"#75D6C6"}}>لديك حساب بالفعل </Link>
         </form>
       </div>
     </div>
