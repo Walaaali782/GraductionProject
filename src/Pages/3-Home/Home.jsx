@@ -2,19 +2,20 @@ import { Home, User, Menu } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 
 const goals = [
-  { id: 1, title: "روتينك اليومي", img: "goal 1.svg" },
+  { id: 1, title: "روتينك اليومي", img: "goal 1.svg",link: "/Home/routine" },
   { id: 2, title: "تحديد الهدف", img: "goal 2.svg", link: "/Home/NewGoal" },
   { id: 3, title: "اللعب والانجازات", img: "goal 3.svg" },
   { id: 4, title: "الافكار السلبية", img: "goal 4.svg" },
   { id: 5, title: "الملاحظات", img: "goal 5.svg" },
   { id: 6, title: "حب النفس", img: "goal 6.svg" },
-  { id: 7, title: "مزاج ممتن", img: "goal 7.svg" },
+  { id: 7, title: "مزاج ممتن", img: "goal 7.svg",link: "/Home/grateful-mood" },
   { id: 8, title: "صفي ذهنك", img: "goal 8.svg" },
   { id: 9, title: "التغذية", img: "goal 9.svg" },
   { id: 10, title: "النوم", img: "goal 10.svg" },
   { id: 11, title: "الدردشة", img: "goal 11.svg" },
   { id: 12, title: "التمارين الرياضية", img: "goal 12.svg" },
 ];
+
 
 export default function AllPage() {
   const navigate = useNavigate();
