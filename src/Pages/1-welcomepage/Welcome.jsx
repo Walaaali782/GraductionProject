@@ -12,8 +12,8 @@ const Welcome  = () => {
       <div className="relative ">
 
 <div>
-  <img src="../public/images/logo.png" className=" mb-2 " alt="" width="300" height="300" style={{paddingLeft:"10px"}} ></img>
-  <img src="../public/images/name.png" className=" mb-8" alt="" width="350" height="350" ></img>
+  <img src="/images/logo.png" className=" mb-2 " alt="" width="300" height="300" style={{paddingLeft:"10px"}} ></img>
+  <img src="/images/name.png" className=" mb-8" alt="" width="350" height="350" ></img>
 </div>
 
 
