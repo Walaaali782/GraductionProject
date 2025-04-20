@@ -20,7 +20,7 @@ const MoodPage = () => {
   ];
 
   return (
-    <div className="bg-white rounded-lg p-6 w-full max-w-sm mx-auto min-h-[90vh] relative overflow-hidden text-right">
+    <div className="bg-white rounded-lg p-6 w-full  min-h-[90vh] relative overflow-hidden text-right">
       <div className="absolute top-0 left-0 w-[120px] h-[120px] z-10">
         <CloudShape />
         <img
