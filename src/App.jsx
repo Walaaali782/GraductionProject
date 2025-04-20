@@ -25,6 +25,12 @@ import AllGrat from "./Pages/6-Gratitude/AllGrat";
 import GratefullMood from "./Pages/6-Gratitude/GratefullMood";
 import Mood from "./Pages/6-Gratitude/mood";
 
+import BreathingPage from "./Pages/ClearMind/BreathingPage";
+import Mediation from "./Pages/ClearMind/mediation";
+import Mediation2 from "./Pages/ClearMind/mediation2"; 
+
+import ClearMind from "./Pages/ClearMind/ClearMind";
+
 
 
 function App() {
@@ -56,6 +62,13 @@ function App() {
         <Route path="/Home/grateful-mood/gratitude" element={<GratitudePage />} />
         <Route path="/Home/grateful-mood/mood" element={<Mood />} />
         <Route path="/Home/grateful-mood/gratitude/all-grat" element={<AllGrat />} />
+
+          
+          {/* Mindfulness */}
+          <Route path="/Home/clear-mind" element={<ClearMind />} />
+          <Route path="/Home/clear-mind/breathing" element={<BreathingPage />} />
+          <Route path="/Home/clear-mind/meditation" element={<Mediation />} />
+          <Route path="/Home/clear-mind/meditation2" element={<Mediation2 />} />
           </Routes>
           </Router>
       
