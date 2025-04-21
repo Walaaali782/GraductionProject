@@ -40,11 +40,14 @@ import Mediation2 from "./Pages/9-ClearMind/Mediation2";
 import Writenote from "./Pages/10-NoteBook/writenote";
 import Allnote from "./Pages/10-NoteBook/Allnote";
 
+
+
 import PlayAndAch from "./Pages/8-Play&Achievements/PlayAndAch";
 import AchievementInfo from "./Pages/8-Play&Achievements/AchievementInfo";
 import Complete from "./Pages/8-Play&Achievements/Complete";
 import Congrats from "./Pages/8-Play&Achievements/Congrats";
 import ViewAchievements from "./Pages/8-Play&Achievements/ViewAchievements";
+
 
 function App() {
   return (
@@ -92,11 +95,13 @@ function App() {
           <Route path="/Home/writenote" element={<Writenote />} />
           <Route path="/Home/writenote/allnote" element={<Allnote />} />
 
+
+          
         <Route path="/Home/Play&Achievements" element={<PlayAndAch />}/>
-        <Route path="/Home/Play&Achievements/AchievementInfo" element={<AchievementInfo/>}/>
-        <Route path="/Home/Play&Achievements/AchievementInfo/Complete" element={<Complete/>}/>
-        <Route path="/Home/Play&Achievements/CompleteAchievement" element={<Congrats/>}/>
-        <Route path="/Home/Play&Achievements/ViewAchievements" element={<ViewAchievements/>}/>
+          <Route path="/Home/Play&Achievements/AchievementInfo" element={<AchievementInfo/>}/>
+          <Route path="/Home/Play&Achievements/AchievementInfo/Complete" element={<Complete/>}/>
+          <Route path="/Home/Play&Achievements/CompleteAchievement" element={<Congrats/>}/>
+          <Route path="/Home/Play&Achievements/ViewAchievements" element={<ViewAchievements/>}/>
 
           </Routes>
           </Router>
