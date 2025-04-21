@@ -37,7 +37,7 @@ import Mediation from "./Pages/9-ClearMind/mediation";
 import Mediation2 from "./Pages/9-ClearMind/Mediation2";
 
 
-import Writenote from "./Pages/10-NoteBook/writenote";
+import Writenote from "./Pages/10-NoteBook/Writenote";
 import Allnote from "./Pages/10-NoteBook/Allnote";
 
 
