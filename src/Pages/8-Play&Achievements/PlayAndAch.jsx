@@ -82,7 +82,7 @@ function PlayAndAch() {
                           }}
                         >
                             <img
-                                src={`/public/images/${ach.img}`}
+                                src={`/images/${ach.img}`}
                                 alt=""
                                 className="rounded-md w-10 h-object-cover"
                             />
