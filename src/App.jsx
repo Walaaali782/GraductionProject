@@ -40,6 +40,8 @@ import Mediation2 from "./Pages/9-ClearMind/Mediation2";
 import Writenote from "./Pages/10-NoteBook/writenote";
 import Allnote from "./Pages/10-NoteBook/Allnote";
 
+
+
 function App() {
   return (
     <div id="up" className="container">
@@ -82,12 +84,11 @@ function App() {
           <Route path="/Home/clear-mind/meditation" element={<Mediation />} />
           <Route path="/Home/clear-mind/meditation2" element={<Mediation2 />} />
 
-          
+
           <Route path="/Home/writenote" element={<Writenote />} />
           <Route path="/Home/writenote/allnote" element={<Allnote />} />
 
 
-          
           </Routes>
           </Router>
       
