@@ -70,7 +70,7 @@ function AchievementInfo() {
                           }}
                         >
                             <img
-                                src={`/public/images/${data.img}`}
+                                src={`/images/${data.img}`}
                                 alt=""
                                 className="rounded-md w-10 h-object-cover"
                             />
