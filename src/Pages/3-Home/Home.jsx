@@ -6,7 +6,7 @@ const goals = [
   { id: 2, title: "تحديد الهدف", img: "goal 2.svg", link: "/Home/NewGoal" },
   { id: 3, title: "اللعب والانجازات", img: "goal 3.svg" },
   { id: 4, title: "الافكار السلبية", img: "goal 4.svg" },
-  { id: 5, title: "الملاحظات", img: "goal 5.svg" },
+  { id: 5, title: "الملاحظات", img: "goal 5.svg"  , link:"/Home/writenote" },
   { id: 6, title: "حب النفس", img: "goal 6.svg" , link: "/Home/SelfloveIncentivize" },
   { id: 7, title: "مزاج ممتن", img: "goal 7.svg",link: "/Home/grateful-mood" },
   { id: 8, title: "صفي ذهنك", img: "goal 8.svg"  ,link: "/Home/clear-mind" },
