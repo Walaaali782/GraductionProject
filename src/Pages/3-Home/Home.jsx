@@ -32,7 +32,7 @@ export default function AllPage() {
           >
             <div className="bg-secondary rounded-lg flex flex-col items-center justify-center p-4 text-center">
               <img
-                src={`/images/${goal.img}`}
+                src={`/images/images/${goal.img}`}
                 alt={goal.title}
                 className="rounded-md w-24 h-24 object-cover"
               />
