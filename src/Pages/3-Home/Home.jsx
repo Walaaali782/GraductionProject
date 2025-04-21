@@ -16,19 +16,26 @@ const goals = [
   { id: 12, title: "التمارين الرياضية", img: "goal 12.svg" },
 ];
 
+
 export default function AllPage() {
   const navigate = useNavigate();
 
   return (
     <div className="flex flex-col min-h-screen bg-background" dir="rtl">
-      <h1 className="text-center text-4xl mt-4 mb-32 mt-28" >الأهداف اليومية</h1>
+      <h1 className="text-center text-4xl mt-28 mb-32 mt-16">الأهداف اليومية</h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4 flex-grow">
         {goals.map((goal) => (
           <div
             key={goal.id}
             className="cursor-pointer no-underline"
-            onClick={() => { navigate(goal.link) }}
+            onClick={() => {
+              if (goal.link) {
+                navigate(goal.link);
+              } else {
+                navigate(`/goal-${goal.id}`);
+              }
+            }}
           >
             <div className="bg-secondary rounded-lg flex flex-col items-center justify-center p-4 text-center">
               <img
