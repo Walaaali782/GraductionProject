@@ -30,18 +30,22 @@ function Complete() {
                     />
                 </div>
                 <div>
-                    <img
-                        src={edge}
-                        alt="edge"
-                        style={{
-                            cursor: "pointer",
-                            position: "relative",
-                            left: "80%",
-                            paddingTop: "30px",
-                            marginBottom: "1rem",
-                        }}
-                        onClick={() => navigate(`/Home/Play&Achievements/AchievementInfo`)}
-                    />
+                   <img
+  src={edge}
+  alt="edge"
+  style={{
+    cursor: "pointer",
+    position: "relative",
+    left: "80%",
+    paddingTop: "30px",
+    marginBottom: "1rem",
+  }}
+  onClick={() =>
+    navigate(`/Home/Play&Achievements/AchievementInfo`, {
+      state: data  
+    })
+  }
+/>
                     <h2 style={{ fontSize: "2.6rem", marginBottom: "4rem", paddingRight: "30px" }} dir="rtl">
                         تحديات اللعب والانجازات
                     </h2>
