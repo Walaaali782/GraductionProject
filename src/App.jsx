@@ -25,11 +25,16 @@ import AllGrat from "./Pages/6-Gratitude/AllGrat";
 import GratefullMood from "./Pages/6-Gratitude/GratefullMood";
 import Mood from "./Pages/6-Gratitude/mood";
 
-import BreathingPage from "./Pages/ClearMind/BreathingPage";
-import Mediation from "./Pages/ClearMind/mediation";
-import Mediation2 from "./Pages/ClearMind/mediation2"; 
 
-import ClearMind from "./Pages/ClearMind/ClearMind";
+import SelfloveIncentivize from "./Pages/7-SelfLove/SelfloveIncentivize";
+import SelfloveArtics from "./Pages/7-SelfLove/SelfloveArtics";
+import SelflovePodcast from "./Pages/7-SelfLove/SelflovePodcast";
+
+
+import ClearMind from "./Pages/9-ClearMind/ClearMind";
+import BreathingPage from "./Pages/9-ClearMind/BreathingPage";
+import Mediation from "./Pages/9-ClearMind/mediation";
+import Mediation2 from "./Pages/9-ClearMind/Mediation2";
 
 
 
@@ -63,12 +68,20 @@ function App() {
         <Route path="/Home/grateful-mood/mood" element={<Mood />} />
         <Route path="/Home/grateful-mood/gratitude/all-grat" element={<AllGrat />} />
 
-          
-          {/* Mindfulness */}
+
+        <Route path="/Home/SelfloveIncentivize" element={<SelfloveIncentivize />} />
+        <Route path="/Home/SelfloveArticles" element={<SelfloveArtics />} />
+        <Route path="/Home/SelflovePotcasts" element={<SelflovePodcast />} />
+
+
+  
           <Route path="/Home/clear-mind" element={<ClearMind />} />
           <Route path="/Home/clear-mind/breathing" element={<BreathingPage />} />
           <Route path="/Home/clear-mind/meditation" element={<Mediation />} />
           <Route path="/Home/clear-mind/meditation2" element={<Mediation2 />} />
+
+
+
           </Routes>
           </Router>
       
@@ -77,3 +90,4 @@ function App() {
 }
 
 export default App;
+
