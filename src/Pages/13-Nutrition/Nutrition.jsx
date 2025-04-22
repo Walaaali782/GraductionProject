@@ -128,7 +128,7 @@ const Nutrition = () => {
         }
       >
         <img
-          src={`/public/images/${recipe.img}`}
+          src={`/images/${recipe.img}`}
           alt={recipe.title}
           className="h-24 object-cover rounded"
         />
