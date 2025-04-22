@@ -49,6 +49,14 @@ import Congrats from "./Pages/8-Play&Achievements/Congrats";
 import ViewAchievements from "./Pages/8-Play&Achievements/ViewAchievements";
 
 
+import Chat from "./Pages/12-Chat/Chat";
+
+
+
+import Timeline from "./Pages/14-TimeLine/Timeline";
+
+
+
 function App() {
   return (
     <div id="up" className="container">
@@ -103,6 +111,17 @@ function App() {
           <Route path="/Home/Play&Achievements/CompleteAchievement" element={<Congrats/>}/>
           <Route path="/Home/Play&Achievements/ViewAchievements" element={<ViewAchievements/>}/>
 
+
+
+
+             <Route path="/Home/chat" element={<Chat />} />
+
+
+
+             <Route path="/timeline" element={<Timeline />} />
+
+
+          
           </Routes>
           </Router>
       
