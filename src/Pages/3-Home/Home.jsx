@@ -40,7 +40,7 @@ export default function AllPage() {
               <img
                 src={`/images/images/${goal.img}`}
                 alt={goal.title}
-                className="rounded-md w-24 h-24 object-cover"
+                className="rounded-md  object-cover"
               />
             </div>
             <div
