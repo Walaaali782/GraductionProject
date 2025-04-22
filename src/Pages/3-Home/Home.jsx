@@ -13,7 +13,7 @@ const goals = [
   { id: 9, title: "التغذية", img: "goal 9.svg"  ,link:"/Home/Nutrition" },
   { id: 10, title: "النوم", img: "goal 10.svg" },
   { id: 11, title: "الدردشة", img: "goal 11.svg" , link:"/Home/chat"},
-  { id: 12, title: "التمارين الرياضية", img: "goal 12.svg" },
+  { id: 12, title: "التمارين الرياضية", img: "goal 12.svg" , link:"/Home/exercise2"},
 ];
 
 export default function AllPage() {
