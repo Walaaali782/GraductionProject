@@ -31,7 +31,7 @@ function PreparationAmounts() {
   {/* الصورة */}
   <div className="flex justify-center">
     <img
-      src={`/public/images/${data.img}`}
+      src={`/images/${data.img}`}
       alt="healthy food"
       className="object-cover rounded-lg w-2/5"
       style={{  marginTop:"80px" }}
