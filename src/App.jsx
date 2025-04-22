@@ -55,6 +55,9 @@ import Chat from "./Pages/12-Chat/Chat";
 
 import Timeline from "./Pages/14-TimeLine/Timeline";
 
+// Exercise Page
+import EX1 from "./Pages/11-Exercise/EX1";
+import EX2 from "./Pages/11-Exercise/EX2";
 
 
 function App() {
@@ -121,6 +124,9 @@ function App() {
              <Route path="/timeline" element={<Timeline />} />
 
 
+          {/*  Exercise*/}
+          <Route path="/Home/exercise" element={<EX1 />} />
+          <Route path="/Home/exercise2" element={<EX2 />} />
           
           </Routes>
           </Router>
