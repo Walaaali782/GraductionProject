@@ -153,7 +153,8 @@ function App() {
         <Route path="/Home/improveSleep/sleep/sleepPage" element={<SleepPage />} />
         <Route path="/Home/improveSleep/music" element={<Music />} />
         <Route path="/Home/improveSleep/music/musicPage" element={<MusicPage />} />
-          
+
+         <Route path="/Home/negativeIdea" element={<NegativeIdea />} />
           </Routes>
           </Router>
       
