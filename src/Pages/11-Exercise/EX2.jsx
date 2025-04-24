@@ -16,30 +16,41 @@ const EX2 = () => {
   };
 
   return (
-    <div className="bg-white rounded-lg p-6 w-full min-h-screen relative overflow-hidden text-right font-cairo">
+    <div className="bg-white rounded-lg w-full min-h-screen relative overflow-hidden text-right font-cairo">
       
-      {/* السحابة والأيقونة */}
-      <div className="absolute top-0 left-0 w-[10px] h-[10px] z-10">
-        <CloudShape />
-        <img
-          src={EXimg}
-          alt="med face"
-          className="w-[150px] absolute top-[5px] left-1/2 transform -translate-x-1/2"
-        />
-      </div>
-
-      {/* زر الإغلاق والعنوان */}
-      <div className="absolute top-4 right-4 flex flex-col items-center z-10">
-        <img
-          src={xmark}
-          alt="x mark"
-          className="w-8 cursor-pointer mb-3"
-          onClick={handleNavigateToHome}
-        />
-        <h2 className="text-lg font-bold text-center" style={{ fontSize: "35px", paddingTop: "15px" }}>
-          التمارين الرياضية 
-        </h2>
-      </div>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <div style={{ position: "relative" }}>
+                    <CloudShape />
+                    <img
+                        src={EXimg}
+                        alt="New goal"
+                        style={{
+                            position: "absolute",
+                            top: "1rem",
+                            left: "50%",
+                            transform: "translateX(-50%)",
+                            width: "110px",
+                        }}
+                    />
+                </div>
+                <div>
+                    <img
+                        src={xmark}
+                        alt="edge"
+                        style={{
+                            cursor: "pointer",
+                            position: "relative",
+                            left: "80%",
+                            paddingTop: "30px",
+                            marginBottom: "1rem",
+                        }}
+                        onClick={() => navigate(`/Home`)}
+                    />
+                    <h2 style={{ fontSize: "2.6rem", marginBottom: "4rem", paddingRight: "30px" }} dir="rtl">
+                    التمارين الرياضية
+                    </h2>
+                </div>
+            </div>
 
       {/* محتوى مركزي */}
       <div className="flex flex-col items-center justify-center  mt-24">
