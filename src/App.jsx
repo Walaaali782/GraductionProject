@@ -64,6 +64,15 @@ import EX2 from "./Pages/11-Exercise/EX2";
 import Nutrition from "./Pages/13-Nutrition/Nutrition";
 import PreparationAmounts from "./Pages/13-Nutrition/PreparationAmounts";
 
+import ProfileCard from "./Pages/15-Profile/ProfileCard";
+
+import ImproveSleep from "./Pages/16-Sleep&Music/improveSleep";
+import Sleep from "./Pages/16-Sleep&Music/sleep";
+import SleepPage from "./Pages/16-Sleep&Music/sleepPage";
+import Music from "./Pages/16-Sleep&Music/music";
+import MusicPage from "./Pages/16-Sleep&Music/musicPage";
+
+import NegativeIdea from "./Pages/17-NegativeIdea/negativeIdea";
 
 function App() {
   return (
@@ -137,6 +146,15 @@ function App() {
             <Route path="/Home/Nutrition" element={<Nutrition/>}/>
           <Route path="/Home/Nutrition/PreparationAmounts" element={<PreparationAmounts/>}/>
 
+         <Route path="/Home/ProfileCard" element={<ProfileCard/>}/>
+
+          <Route path="/Home/improveSleep" element={<ImproveSleep />} />
+        <Route path="/Home/improveSleep/sleep" element={<Sleep />} />
+        <Route path="/Home/improveSleep/sleep/sleepPage" element={<SleepPage />} />
+        <Route path="/Home/improveSleep/music" element={<Music />} />
+        <Route path="/Home/improveSleep/music/musicPage" element={<MusicPage />} />
+
+         <Route path="/Home/negativeIdea" element={<NegativeIdea />} />
           </Routes>
           </Router>
       
