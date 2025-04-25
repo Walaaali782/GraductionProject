@@ -146,7 +146,7 @@ function App() {
             <Route path="/Home/Nutrition" element={<Nutrition/>}/>
           <Route path="/Home/Nutrition/PreparationAmounts" element={<PreparationAmounts/>}/>
 
-         <Route path="/Home/ProfileCard" element={<ProfileCard/>}/>
+         <Route path="/profile" element={<ProfileCard/>}/>
 
           <Route path="/Home/improveSleep" element={<ImproveSleep />} />
         <Route path="/Home/improveSleep/sleep" element={<Sleep />} />
