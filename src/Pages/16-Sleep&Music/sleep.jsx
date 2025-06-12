@@ -14,7 +14,7 @@ const sleepStories = [
     {
       id: 2,
       title: "نصايح لتحسين النوم",
-      image: "/public/images/sleep2.png",
+      image: "/images/sleep2.png",
       stories: [
         "في قلب الغابة، نام الأرنب على ورقة شجرة عملاقة...",
         "وكانت الطيور تغني له حتى نام في سلام."
