@@ -5,7 +5,7 @@ const sleepStories = [
     {
       id: 1,
       title: "قصة قبل النوم",
-      image: "/public/images/sleep1.png",
+      image: "/images/sleep1.png",
       stories: [
         "في ليلةٍ هادئة، قرر سامي أن يطير إلى القمر بمظلته السحريةتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتت",
         "ىىىىىىىىىىىىىىىىىىىىىىىوعندما وصل، وجد مخلوقات صغيرة ترحب به وتقدم له الشوكولاتة الفضائية!"
@@ -23,7 +23,7 @@ const sleepStories = [
     {
       id: 3,
       title: "التوازن",
-      image: "/public/images/sleep3.png",
+      image: "/images/sleep3.png",
       stories: [
         "النجوم اجتمعت لتحكي لحسام حكايات من الماضي...",
         "كل نجمة كانت تلمع وتحكي قصة مختلفة!"
@@ -32,7 +32,7 @@ const sleepStories = [
     {
       id: 4,
       title: "الاسترخاء",
-      image: "/public/images/sleep4.png",
+      image: "/images/sleep4.png",
       stories: [
         "النجوم اجتمعت لتحكي لحسام حكايات من الماضي...",
         "كل نجمة كانت تلمع وتحكي قصة مختلفة!"
