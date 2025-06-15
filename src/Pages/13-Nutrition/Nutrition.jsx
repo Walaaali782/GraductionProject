@@ -56,8 +56,8 @@ const Nutrition = () => {
   {/* الصورة */}
   <div className="flex justify-center">
     <img
-{/*       src="https://i.pinimg.com/736x/98/54/01/985401ce7dce96ca848036a032067e17.jpg" */}
-      src="https://static.arrajol.com/users/user471276/shutterstock_521741356.jpg"
+
+      src="/images/healthnur.jpg"
       alt="healthy food"
       className="object-cover rounded-lg w-4/5"
       style={{ height: '500px', marginTop:"80px" }}
