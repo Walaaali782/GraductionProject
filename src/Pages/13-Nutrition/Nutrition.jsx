@@ -57,7 +57,7 @@ const Nutrition = () => {
   <div className="flex justify-center">
     <img
 
-      src="/images/healthnur.jpg"
+      src="/images/images/healthnur.jpg"
       alt="healthy food"
       className="object-cover rounded-lg w-4/5"
       style={{ height: '500px', marginTop:"80px" }}
